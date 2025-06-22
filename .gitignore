@@ -1,0 +1,4 @@
+# you can skip this first one if it is not already excluded by prior patterns
+extras/
+.env
+node_modules/
