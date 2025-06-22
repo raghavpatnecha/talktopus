@@ -1,6 +1,6 @@
-# ConferenceFlow Realtime Translation Web App
+# Talktopus Realtime Translation Web App
 
-ConferenceFlow is a real-time voice and translation web app built with Agora for audio/video calls and OpenAI for live translation. The UI is modern and responsive, supporting multiple participants with live video, avatars, and translation settings.
+Talktopus is a real-time voice and translation web app built with Agora for audio/video calls and OpenAI for live translation. The UI is modern and responsive, supporting multiple participants with live video, avatars, and translation settings.
 
 ## Project Structure
 
@@ -57,7 +57,7 @@ ConferenceFlow is a real-time voice and translation web app built with Agora for
    By default, the server will serve the `/public` directory and run the relay logic.
 
 5. **Open the app**
-   - Visit [http://localhost:3000/realtime.html](http://localhost:3000/realtime.html) in your browser.
+   - Visit [http://localhost:3000](http://localhost:3000) in your browser.
 
 6. **Join a call**
    - Click "Join Call" and allow camera/microphone access.
@@ -66,8 +66,9 @@ ConferenceFlow is a real-time voice and translation web app built with Agora for
 ## Notes
 - All UI and logic is in `/public/realtime.html`, `/public/main.js`, and `/public/styles.css`.
 - The app is designed for demo and prototyping purposes. For production, secure your API keys and use HTTPS.
-- You can remove any other files/folders not listed above for a minimal setup.
-
 ---
 
-**Enjoy real-time translated conversations!** 
+
+# App Screenshot
+
+![App Screenshot](public/assets/app_demo.jpg)
