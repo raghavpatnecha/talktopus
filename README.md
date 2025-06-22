@@ -1,6 +1,11 @@
+
+<p align="center">
+  <img src="public/assets/logo_oct.png" alt="Talktopus Logo" width="200"/>
+</p>
+
 # Talktopus Realtime Translation Web App
 
-Talktopus is a real-time voice and translation web app built with Agora for audio/video calls and OpenAI for live translation. The UI is modern and responsive, supporting multiple participants with live video, avatars, and translation settings.
+Talktopus is a real-time voice and translation web app built with Agora for audio/video calls and OpenAI for live translation.The app is built with vanilla JavaScript and intended for demonstration purposes only.
 
 ## Project Structure
 
@@ -14,18 +19,14 @@ Talktopus is a real-time voice and translation web app built with Agora for audi
 
 ## Features
 - Join/leave real-time audio/video calls (Agora)
-- See all participants in a dynamic video grid
 - Live translation of speech (OpenAI Whisper/translation)
-- Custom avatars and placeholders for users without video
 - Translation settings (choose source/target language)
 - Push-to-talk and VAD (voice activity detection) modes
-- Logs sidebar for debugging
 
 ## Dependencies
 - [Node.js](https://nodejs.org/) (v16+ recommended)
 - [Agora Web SDK](https://www.agora.io/en/blog/agora-web-sdk/) (loaded via CDN in HTML)
 - [OpenAI API](https://platform.openai.com/docs/api-reference)
-- [siriwave](https://github.com/caffeinalab/siriwave) (for waveform animation, loaded via CDN)
 
 ### NPM Packages (for server)
 - `ws` (WebSocket server)
